@@ -23,17 +23,20 @@
 
 #mainsection {
   background-color: rgb(255, 255, 255, 0.7);
-  width: 70vw;
-  height: 70vh;
+  width: 65vw;
+  height: 60vh;
   z-index: 2;
   border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #trees {
   width: 100vw;
-  position: fixed;
+  position: absolute;
   left: 0;
-  bottom: 10%;
   display: flex;
   justify-content: space-between;
 }
@@ -45,3 +48,27 @@
 #treesR {
   width: 25vw;
 } 
+
+#navbar {
+  z-index: 2;
+  width: 60vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 15px;
+  border: 3px solid #ffffff ;
+  border-radius: 30px;
+  background-color: #12475362;
+  margin: 10px;
+}
+
+.navlink {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.navlink:hover {
+  text-decoration: underline;
+}
