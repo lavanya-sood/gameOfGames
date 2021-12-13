@@ -1,0 +1,47 @@
+#homepage {
+  background-color: #52dfff;
+  height: 100vh;
+  weight: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#background {
+  position: absolute;
+  bottom: -10px;
+}
+
+#ground {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#mainsection {
+  background-color: rgb(255, 255, 255, 0.7);
+  width: 70vw;
+  height: 70vh;
+  z-index: 2;
+  border-radius: 30px;
+}
+
+#trees {
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  bottom: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#treesL {
+  width: 25vw;
+}
+
+#treesR {
+  width: 25vw;
+} 
