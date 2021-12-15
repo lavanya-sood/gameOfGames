@@ -1,0 +1,28 @@
+
+
+#TicTacArea {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+} 
+
+
+
+#TicTacBoard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.playerPos {
+    border: 1px solid #000000;
+    width: 100px;
+    height: 100px;
+}
+
+#TicTacPlayer {
+    background-color: white;
+    margin: 30px;
+    padding: 10px;
+} 
