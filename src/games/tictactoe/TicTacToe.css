@@ -16,13 +16,26 @@
 }
 
 .playerPos {
-    border: 1px solid #000000;
-    width: 100px;
-    height: 100px;
+    /* border: 1px solid #000000; */
+    width: 90px;
+    height: 90px;
+    background-color: #9ecbf7;
+    box-shadow: 5px 5px #7ba6d1;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bold;
 }
 
 #TicTacPlayer {
     background-color: white;
     margin: 30px;
     padding: 10px;
+    width: 150px;
+    height: 160px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #a8a8a8;
 } 

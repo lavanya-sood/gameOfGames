@@ -72,3 +72,9 @@
 .navlink:hover {
   text-decoration: underline;
 }
+
+.winStatus {
+  font-size: 1em;
+  font-weight: bold;
+  color: #ca3d3d;
+}
